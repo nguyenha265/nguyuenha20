@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soTien = parseInt(prompt("thu nhập cá nhân tính bằng triệu"));
+    if(soTien<=5){
+        thue = soTien*5;
+    }
+    else if (soTien<=10){
+        thue = soTien*10;
+    }
+    else if (soTien<=18){
+        thue = soTien*15;
+    }
+    else if (soTien<=32){
+        thue = soTien*20;
+    }
+    else if (soTien<=80){
+        thue = soTien*25;
+    }
+    else if (soTien<=80){
+        thue = soTien*30;
+    }
+    else if (soTien>80){
+        thue = soTien*35;
+    }
+    alert("thuế phải đóng là " + thue/100);
+</script>
+</body>
+</html>

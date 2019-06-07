@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canh1 =parseInt(prompt("canh1"));
+    let canh2 =parseInt(prompt("canh2"));
+    let canh3 =parseInt(prompt("canh3"));
+    let kiemtra = canh1+canh2+canh3;
+       if(kiemtra == 0){
+           alert("không phải là tam giác");
+       }
+       else if (canh1 + canh2 <canh3){
+           alert("không phải là tam giác");
+       }
+       else if (canh2 + canh3 <canh1){
+           alert("không phải là tam giác");
+       }
+       else if (canh3 + canh1 <canh2){
+           alert("không phải là tam giác");
+       }
+       else {
+           alert("là 1 tam giác");
+       }
+</script>
+</body>
+</html>
